@@ -1,5 +1,16 @@
 import streamlit as st
 
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #f0f2f6;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Configuración de la página
 st.set_page_config(
     page_title="Mi App Moderna",
