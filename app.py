@@ -8,6 +8,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Simulación de carga inicial
+with st.spinner("Cargando datos..."):
+    time.sleep(2)  # Simula una operación que tarda 2 segundos
+st.success("Datos cargados correctamente!")
+
 # Personalización global del estilo
 st.markdown("""
     <style>
