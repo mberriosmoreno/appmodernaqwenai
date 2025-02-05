@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Personalización del sidebar
-st.sidebar.image("assets/logo.png", use_column_width=True)
+st.sidebar.image("assets/logo.png", use_container_width =True)
 st.sidebar.title("Menú")
 st.sidebar.markdown("""
     Bienvenido a mi aplicación moderna y elegante.  
