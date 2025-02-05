@@ -1,24 +1,20 @@
 import streamlit as st
 
-# Configuración de la página (primera instrucción)
+# Configuración de la página
 st.set_page_config(
     page_title="Mi App Moderna",
-    page_icon="📊",
-    layout="wide",
+    page_icon="📊",  # Emoji como ícono
+    layout="wide",   # Usa todo el ancho de la pantalla
     initial_sidebar_state="expanded"
 )
 
-# Personalización del estilo
-st.markdown("""
-    <style>
-        .stApp {
-            background-color: #f0f2f6; /* Fondo claro */
-        }
-        h1 {
-            color: #4CAF50; /* Títulos en verde */
-        }
-    </style>
-""", unsafe_allow_html=True)
+# Personalización del sidebar
+st.sidebar.image("assets/logo.png", use_column_width=True)
+st.sidebar.title("Menú")
+st.sidebar.markdown("""
+    Bienvenido a mi aplicación moderna y elegante.  
+    Navega por las opciones del menú para explorar diferentes funcionalidades.
+""")
 
 # Contenido principal
 st.title("📊 Mi Aplicación Moderna y Elegante")
