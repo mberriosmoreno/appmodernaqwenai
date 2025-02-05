@@ -1,4 +1,4 @@
-streamlit==1.22.0  # Versión específica de Streamlit
-pandas==2.0.3      # Para manejo de datos
-plotly==5.15.0     # Para gráficos interactivos
-numpy==1.24.3      # Opcional, si necesitas operaciones numéricas avanzadas
+streamlit  # Versión específica de Streamlit
+pandas     # Para manejo de datos
+plotly    # Para gráficos interactivos
+numpy   # Opcional, si necesitas operaciones numéricas avanzadas
