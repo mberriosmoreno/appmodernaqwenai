@@ -8,6 +8,18 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Personalización global del estilo
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #f0f2f6;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Personalización del sidebar
 st.sidebar.image("assets/logo.png", use_container_width =True)
 st.sidebar.title("Menú")
