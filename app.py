@@ -1,5 +1,13 @@
 import streamlit as st
 
+# Configuración de la página
+st.set_page_config(
+    page_title="Mi App Moderna",
+    page_icon="📊",  # Emoji como ícono
+    layout="wide",   # Usa todo el ancho de la pantalla
+    initial_sidebar_state="expanded"
+)
+
 # Personalización local del estilo
 st.markdown("""
     <style>
@@ -11,14 +19,6 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
-# Configuración de la página
-st.set_page_config(
-    page_title="Mi App Moderna",
-    page_icon="📊",  # Emoji como ícono
-    layout="wide",   # Usa todo el ancho de la pantalla
-    initial_sidebar_state="expanded"
-)
 
 # Personalización del sidebar
 st.sidebar.image("assets/logo.png", use_container_width=True)
