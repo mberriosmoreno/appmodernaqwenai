@@ -1,5 +1,17 @@
 import streamlit as st
 
+# Personalización local del estilo
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #f0f2f6; /* Fondo claro */
+        }
+        h1 {
+            color: #FF5733; /* Títulos en naranja */
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Configuración de la página
 st.set_page_config(
     page_title="Mi App Moderna",
